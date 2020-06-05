@@ -2,6 +2,10 @@
 
 An E-commerce website developed using React, Redux, Node.js and MongoDB.
 
+Heroku URL:
+<br>
+https://e-commerce-jiehao-luo.herokuapp.com/
+
 Account for sign-in:
 <br>
 Email: a@q.com
