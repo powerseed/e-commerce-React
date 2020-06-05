@@ -21,8 +21,10 @@ app.use("/api/users", userRouters);
 app.use("/api/products", productRouters);
 app.use("/api/orders", orderRouters)
 
+app.use(express.static(path.join(__dirname, "/../e-commerce/build")));
+app.get("*", (req, res) => res.sendFile(path.join(`${__dirname}/../e-commerce/build/index.html`)));
+app.listen(config.PORT)
+
 app.get("/api/config/paypal", (req, res) => {
     res.send(config.PAPPAL_CLIENT_ID);
 })
-
-app.listen(5000);
