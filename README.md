@@ -8,7 +8,7 @@ https://e-commerce-jiehao-luo.herokuapp.com/
 
 Account for sign-in:
 <br>
-Email: a@q.com
+Email: b@q.com
 <br>
 Password: 1
 
