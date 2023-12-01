@@ -24,7 +24,7 @@
     "@babel/preset-env": "^7.10.1",
     "babel-cli": "^6.26.0",
     "mkdirp": "^1.0.4",
-    "nodemon": "^2.0.4",
+    "nodemon": "^2.0.22",
     "rimraf": "^3.0.2"
   },
   "engines": {
