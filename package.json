@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon --watch backend --exec babel-node backend/server.js",
-    "build": "rimraf dist && babel backend -d dist && cd e-commerce && npm install && npm run build"
+    "build": "npm install && rimraf dist && babel backend -d dist && cd e-commerce && npm install && npm run build"
   },
   "author": "",
   "license": "ISC",
