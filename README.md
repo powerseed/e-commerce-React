@@ -4,7 +4,7 @@ An E-commerce website developed using React, Redux, Node.js and MongoDB.
 
 Heroku URL:
 <br>
-https://e-commerce-jiehao-luo.herokuapp.com/
+https://e-commerce-xa31.onrender.com
 
 Account for sign-in:
 <br>

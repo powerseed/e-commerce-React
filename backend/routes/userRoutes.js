@@ -8,8 +8,8 @@ const router = express.Router();
 router.get("/createAdmin", async (req, res) => {
     try {
         const user = new User({
-            name: "powerseed",
-            email: "powerseed5044@gmail.com",
+            name: "admin",
+            email: "admin@admin.com",
             password: "11111111",
             isAdmin: true
         })
